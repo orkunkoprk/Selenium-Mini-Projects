@@ -1,0 +1,20 @@
+<suite name="My suite1">
+    <tests name="My Tests1">
+        <test name="Include Test">
+            <classes>
+                <class name="TestNG.basicTest"/>
+                <methods>
+
+                   <!-- <include name="Test1"/>
+                    <include name="Test2"/> -->
+                    <exclude name="Test1"></exclude>
+                    <exclude name="Test3"></exclude>
+
+
+                </methods>
+
+            </classes>
+        </test>
+
+    </tests>
+</suite>
